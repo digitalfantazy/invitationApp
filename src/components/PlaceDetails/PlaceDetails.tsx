@@ -96,7 +96,7 @@ const PlaceDetails: React.FC = () => {
       </div>
       <div className="confirmation">
         <p className="intro-text">
-          Вы выбрали: {place.name} {selectedDay}, {selectedTime}
+          Выбор: {place.name} {selectedDay}, {selectedTime}
         </p>
         <button onClick={handleConfirm}>Подтвердить</button>
       </div>
